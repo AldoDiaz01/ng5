@@ -32,7 +32,7 @@ import { Entidades } from '../entidades';
 export class HomeComponent implements OnInit {
 
   itemCount : number = 1
-  btnTxt : string = "Add an item"
+  btn : string = "Add an item"
   goalText : string = "My first life goal"
   goals = [];
 
